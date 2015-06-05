@@ -1,0 +1,12 @@
+Manifest-Version: 2.0
+Class-Path: argouml.jar ﻿jurt.jar ridl.jar juh.jar unoil.jar sandbox.jar
+Created-By: 1.2 (Sun Microsystems Inc.) 
+
+Name: org/lmpehrs/soffice/ArgoPlugin.class
+Extension-name: module.language.generator.soffice
+Specification-Title: ArgoUML Dynamic Load Module
+Specification-Version: 0.9.4
+Specification-Vendor: University of California
+Implementation-Vendor: Matti Pehrs
+Implementation-Version: 0.1.0
+Implementation-Title: StarOffice/OpenOffice ArgoUML Plugin

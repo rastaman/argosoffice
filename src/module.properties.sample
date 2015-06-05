@@ -1,0 +1,15 @@
+#
+# Change these values to reflect your development env.
+#
+
+# Points to the arguml CVS root
+argo.root=/opt/development/argouml
+
+# Star/OpenOffice home directory
+office.home=/opt/staroffice7
+
+#
+# These should not need change
+#
+argo.module.name=argosoffice
+argo.module.jarfile=argo_soffice

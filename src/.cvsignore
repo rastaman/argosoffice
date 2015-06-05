@@ -1,0 +1,7 @@
+build
+local-*.sh
+local-*.bat
+build.properties
+module.properties
+argouml.log
+

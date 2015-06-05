@@ -1,0 +1,75 @@
+<html>
+<head>
+</head>
+<body>
+The argosoffice project aims to create a plugin for ArgoUML to generate 
+documentation using Star/Openoffice.
+
+<h3>Download</h3>
+<p>Current version of argosoffice is <a href="http://argosoffice.tigris.org/files/documents/1269/41429/argosoffice-0.3-20080205.zip">0.3-20080205</a>. Please read the <a href="http://argosoffice.tigris.org/files/documents/1269/9858/README-Soffice.txt">README</a> for installation and configuration instructions.</p>
+<p>This is a new version for ArgoUML 0.25.4+ and OpenOffice 2.3+.</p>
+<p>It is still of ALPHA quality, with regressions in the generation of diagrams and text documents. However the code is now compliant with today's ArgoUML code and i will now work on improving the documents generation.</p>
+<div align="right">L.Maitre (a.k.a. rastaman), current maintainer of the plugin.</div>
+<h3>Screenshot</h3>
+
+Here's a screenshot of argosoffice in use:<br/>
+
+<a href="images/screenshot.jpg"><img width=300 border=0 src="images/screenshot.jpg"></img></a>
+
+<h3>Mission</h3>
+
+<p>What is the goal of this project?
+</p>
+<ul>
+<li>Develop a plugin for ArgoUML to generate documentation using Star/OpenOffice</li>
+</ul>
+
+<p>What is the scope of this project?
+</p>
+<ul>
+<li>Use the APIs provided by Star/OpenOffice and generate documentation from ArgoUML diagrams.</li>
+</ul>
+
+
+
+<p>What are high-level features you are sure to build?
+</p>
+<ul>
+<li>Generate Star/Open-Office Drawings of all UseCase and Component Diagrams</li>
+<li>Generate Star/Open-Office Writer Document with a dictionary of UseCases and Components</li>
+</ul>
+
+<p>What are the high-level assumptions or ground rules for the project?
+</p>
+
+<ul>
+<li> The argusoffice plugin is written in Java</li>
+</ul>
+
+<h3>Limitations</h3>
+
+<ul>
+<li>The plugin assumes the port 8100 for Star/OpenOffice. This will be configurable in future versions.</li>
+
+<li>The Star/Open-Office Plugin can generate all the different types of
+  digrams supported by ArgoUML. Rounded Rects are not supporte yet so
+  State diagrams will not look correct. Fill color support is not fully 
+  implemented which will generate strange colors on some figs.
+  The Dictionary is still only generating a dictionary for Use Cases/Actors 
+  and Deployment diagram Components. </li>
+</ul>
+
+<h3>Related resources</h3>
+
+<ul>
+
+<li><a href="http://argouml.tigris.org">ArgoUML</a> - Open source Modelling Tool</li>
+
+<li><a href="http://wwws.sun.com/software/star/staroffice/index.html">StarOffice</a> - Office Package based on OpenOffice</li>
+
+<li><a href="http://www.openoffice.org">OpenOffice</a> -  Open Source Office Package</li>
+
+<li><a href="http://www.openoffice.org/dev_docs/source/sdk/index.html">OpenOffice/StarOffice SDK</a> - The OpenOffice.org SDK provides the necessary tools and documentation for programming the OpenOffice.org APIs and creating own extensions (UNO components) for OpenOffice.org.</li>
+
+</body>
+</html>
